@@ -8,12 +8,12 @@
     "name": "A Strapi developer"
   },
   "scripts": {
-    "build": "strapi build",
-    "deploy": "strapi deploy",
-    "develop": "strapi develop",
-    "start": "strapi start",
-    "strapi": "strapi"
-  },
+  "build": "node ./node_modules/.bin/strapi build",
+  "deploy": "node ./node_modules/.bin/strapi deploy",
+  "develop": "node ./node_modules/.bin/strapi develop",
+  "start": "node ./node_modules/.bin/strapi start",
+  "strapi": "node ./node_modules/.bin/strapi"
+},
   "dependencies": {
     "@strapi/plugin-cloud": "4.25.3",
     "@strapi/plugin-i18n": "4.25.3",
