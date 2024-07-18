@@ -22,7 +22,7 @@ function Search({ params }) {
   }, []);
 
   return (
-    <div className="mt-5 p-2">
+    <div className="  md:mt-5 p-2">
       <DoctorList heading={category} doctorList={doctorList}/>
     </div>
   );
